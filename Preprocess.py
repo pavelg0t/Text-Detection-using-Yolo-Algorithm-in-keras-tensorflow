@@ -42,9 +42,9 @@ img_h = 512
 for z in tqdm.tqdm(range(len(train_image_paths))):
     
     new_file = train_image_paths[z]
-    print(new_file)
+    #print(new_file)
     x = cv2.imread(train_image_paths[z])
-    print(x)
+    #print(x)
     x_sl = 512/x.shape[1]
     y_sl = 512/x.shape[0]
     
